@@ -17,8 +17,8 @@ jobs:
               uses: port-labs/ocean-sail@v1
               with:
                 type: jira
-                port_client_id: ${{"rR0J7DIONi6mDtiPq3B77Sk0y5d4BWY4"}}
-                port_client_secret: ${{"JSvhjNPgiFjQFWfLEX5YdH7xkKNcbeFlVNAoDPTHlQOZTQ6Qt4fpe1CJBWGqoBYO"}}
+                port_client_id: ${{ secrets.rR0J7DIONi6mDtiPq3B77Sk0y5d4BWY4}}
+                port_client_secret: ${{ secrets.JSvhjNPgiFjQFWfLEX5YdH7xkKNcbeFlVNAoDPTHlQOZTQ6Qt4fpe1CJBWGqoBYO}}
                 port_base_url: "https://api.port.io"
                 config: |
                     jira_host: "https://d8tabaseatlassian.atlassian.net"
