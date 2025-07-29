@@ -22,5 +22,5 @@ jobs:
                 port_base_url: "https://api.port.io"
                 config: |
                     jira_host: "https://d8tabaseatlassian.atlassian.net"
-                    atlassian_user_email: ${{ secrets.d8tabase@gmail.com }}
+                    atlassian_user_email: ${{ secrets."d8tabase@gmail.com" }}
                     atlassian_user_token: ${{ secrets.ATATT3xFfGF0-waeRynJ42A_QgTEWjeQBIggHGwE2-Y7SMy8UeeupWZ29SgSQHUqeQ2V1Sygg7kGXsxgsl1DAsmSofEjevBrd8rsXR7gaKXVFFVrrTb4eOiYYBUXlbXsbhZwSmsDMzBLTVi3gnbsuKdxXbKx-FBR9voYBcI9InRyTQ_frbzLm4Y=01A7ADD3}}
